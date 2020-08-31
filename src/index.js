@@ -1,19 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '././index.scss';
-import App from './App';
+import App from './routes/app/App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
       <App />
-    </BrowserRouter>
-    <div>
-      <Link to="/">Home </Link>
-      <Link to="/about">About Us </Link>
-      <Link to="/shop">Shop Now </Link>
-    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
