@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from '../../components/structural/home/Home';
 import Error from '../../components/dynamic/error/Error';
-import '../../App.scss';
+import './App.scss';
 
 function App() {
   return (
