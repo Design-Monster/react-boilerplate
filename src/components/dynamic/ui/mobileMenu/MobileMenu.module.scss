@@ -1,6 +1,6 @@
 @import 'styles/global/breakpoints.scss';
 @import 'styles/global/variables.scss';
 
-.child {
-    background-color: green;
+.something {
+    background-color: $color_background_main;
 }
